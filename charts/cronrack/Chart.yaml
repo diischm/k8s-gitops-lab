@@ -1,0 +1,6 @@
+apiVersion: v2
+name: cronrack
+description: CronRack homelab monitoring platform
+type: application
+version: 0.1.0
+appVersion: "sha-079b616"
