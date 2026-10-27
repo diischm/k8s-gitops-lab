@@ -38,3 +38,6 @@ spec:
             initialDelaySeconds: 5
             periodSeconds: 10
             failureThreshold: 3
+          envFrom:
+            - configMapRef:
+                name: podinfo-config

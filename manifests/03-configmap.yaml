@@ -1,0 +1,8 @@
+apiVersion: v1
+data:
+  PODINFO_UI_COLOR: '#2c3e50'
+  PODINFO_UI_MESSAGE: Hello from Dimi's k3d lab
+kind: ConfigMap
+metadata:
+  name: podinfo-config
+  namespace: podinfo
