@@ -5,6 +5,12 @@ metadata:
   namespace: cronrack
 spec:
   ingressClassName: traefik
+  {{- with .Values.tls }}
+  tls:
+    - hosts:
+        - {{ $.Values.domain }}
+      secretName: {{ .secretName }}
+  {{- end }}
   rules:
     - host: {{ .Values.domain }}
       http:
