@@ -4,7 +4,7 @@ image:
 
 domain: cronrack.localhost
 csrfTrustedOrigins: https://cronrack.localhost:8443
-logLevel: info
+logLevel: debug
 
 storage:
   size: 1Gi
