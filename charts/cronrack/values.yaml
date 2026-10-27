@@ -11,3 +11,6 @@ storage:
 
 nodeSelector:
   kubernetes.io/hostname: dimiserver
+
+tls:
+  secretName: cronrack-tls
