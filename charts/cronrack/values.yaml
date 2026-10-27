@@ -2,9 +2,12 @@ image:
   repository: ghcr.io/diischm/cronrack
   tag: sha-079b616
 
-domain: cronrack.localhost
-csrfTrustedOrigins: https://cronrack.localhost:8443
-logLevel: debug
+domain: dimiserver.beardie-larch.ts.net
+csrfTrustedOrigins: https://dimiserver.beardie-larch.ts.net
+logLevel: info
 
 storage:
   size: 1Gi
+
+nodeSelector:
+  kubernetes.io/hostname: dimiserver
