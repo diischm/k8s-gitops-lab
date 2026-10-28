@@ -13,7 +13,7 @@ every day instead of a demo app.
 flowchart LR
     dev[Developer] -->|git push| app[cronrack repo<br/>app code]
     app -->|GitHub Actions:<br/>tests, scans,<br/>multi-arch build| ghcr[(GHCR<br/>image sha-xxxxxxx)]
-    app -->|CI opens deploy PR (still in progress) | repo[k8s-gitops-lab<br/>Helm chart + image tag]
+    app -->|CI opens deploy PR, still in progress | repo[k8s-gitops-lab<br/>Helm chart + image tag]
     repo -->|watched by| argo[ArgoCD]
     subgraph cluster [k3s cluster]
         argo --> deploy[CronRack pod<br/>migrate → web + scheduler]
