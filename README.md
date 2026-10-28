@@ -110,6 +110,6 @@ cluster always converges back to what is in this repo.
 - [ ] CI promote job (built, rolling out)
 - [ ] Add the GitHub CI scans on the k8s git ops repo
 - [ ] Provision the nodes with Ansible, then rebuild from scratch to prove it
-- [ ] Secrets via an external store (Vault or External Secrets Operator)
+- [ ] Secrets via an external store (Vault, HashiCorp or External Secrets Operator)
 - [ ] Prometheus, Grafana and Node Exporter for cluster metrics
 - [ ] Automate the 90-day certificate renewal
