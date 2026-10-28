@@ -106,8 +106,9 @@ cluster always converges back to what is in this repo.
 - [x] Two-node k3s cluster (amd64 + arm64)
 - [x] CronRack deployed via Helm chart and ArgoCD
 - [x] TLS with a Let's Encrypt certificate via Tailscale
-- [ ] CI promote job (built, rolling out)
 - [x] CronRack agents on both nodes
+- [ ] CI promote job (built, rolling out)
+- [ ] Add the GitHub CI scans on the k8s git ops repo
 - [ ] Provision the nodes with Ansible, then rebuild from scratch to prove it
 - [ ] Secrets via an external store (Vault or External Secrets Operator)
 - [ ] Prometheus, Grafana and Node Exporter for cluster metrics
