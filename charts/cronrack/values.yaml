@@ -1,6 +1,6 @@
 image:
   repository: ghcr.io/diischm/cronrack
-  tag: sha-1a7be63
+  tag: sha-e10a6c9
 
 domain: dimiserver.beardie-larch.ts.net
 csrfTrustedOrigins: https://dimiserver.beardie-larch.ts.net
